@@ -8,6 +8,12 @@
     <artifactId>GitHubTest</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub TurtleSkills Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/turtleskills/githubtest</url>
+        </repository>
+    </distributionManagement>
 
 </project>
